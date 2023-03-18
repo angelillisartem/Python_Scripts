@@ -1,4 +1,4 @@
-from pytube import YouTube #Install library "YouTube" with [pip install YouTube]
+from pytube import YouTube #Install library "pytube" with [pip install pytube]
 
 macos: str = " (for macOS use /Users/yourUser/yourDirectory) "
 
