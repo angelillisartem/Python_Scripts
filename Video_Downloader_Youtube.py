@@ -2,13 +2,13 @@
 from pytube import YouTube
 
 # Insert a directory, where u download your video!
-directory: str = " (for macOS use /Users/yourUser/yourDirectory) "
+directoryMacOS: str = " (for macOS use /Users/yourUser/yourDirectory) "
 
 # Insert a Video Link to download
 video = input(str("Insert video link: "))
 
 # Take in input the directory
-percorso = input(str("Insert directory where u want to download a video: " + directory))
+percorso = input(str("Insert directory where u want to download a video: " + directoryMacOS))
 
 # Take the video link
 yt = YouTube(video)
